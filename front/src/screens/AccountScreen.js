@@ -5,6 +5,7 @@ import {Button} from 'react-native-elements';
 
 import Spacer from '../components/Spacer';
 import {Context as AuthContext} from '../context/AuthContext';
+import Map from '../components/Map';
 
 const AccountScreen = () => {
     const {signout} = useContext(AuthContext);
